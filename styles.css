@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body {
+    text-align: center;
+    font-family: 'Handlee';
+    margin: 0;
+    background-image: url(/img/Ocean-rocks-sunset-clouds_1920x1200.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    padding: 1rem 0rem;
+    background-color: yellow;
+}
+
+#engInput {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Handlee';
+    resize: none;
+    border: 5px red dashed;
+}
+
+button {
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    margin: auto;
+    border-radius: 3rem 2rem;
+    background-color: yellow;
+    font-family: 'Handlee';
+    font-size: large;
+    /* margin: 2rem 20rem 2rem 45rem; */
+}
+
+#output {
+    border: 2px solid skyblue;
+    height: 10rem;
+    max-width: 30%;
+    margin: auto;
+    text-align: justify;
+    padding: 2rem;
+    color: aliceblue;
+    text-align: center;
+    backdrop-filter: blur(8px) saturate(200%);
+    -webkit-backdrop-filter: blur(8px) saturate(200%);
+    background-color: rgba(48, 56, 70, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    font-size: 2rem;
+}
+
+#textRef {
+    margin: 2rem;
+    color: azure;
+}
